@@ -1,0 +1,17 @@
+[package]
+name = "crypt-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ariel Miculas"]
+description = "FFI wrappers for the Linux crypt library"
+license = "MIT OR Apache-2.0"
+categories = ["api-bindings", "cryptography", "external-ffi-bindings", "os::unix-apis"]
+
+repository = "https://github.com/ariel-miculas/crypt-sys.git"
+documentation = "https://docs.rs/crypt-sys/"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+bindgen = "0.69.1"
